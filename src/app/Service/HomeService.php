@@ -24,4 +24,4 @@ class HomeService
     {
         $this->homeRepository = HomeRepository::getInstance();
     }
-  }
+  } 

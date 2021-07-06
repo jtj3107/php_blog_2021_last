@@ -3,7 +3,7 @@ if (isset($pageTitle) == false) {
     $pageTitle = "";
 }
 
-$application = $this->getApplication();
+$application = $this->application();
 $envCode = $application->getEnvCode();
 $prodSiteDomain = $application->getProdSiteDomain();
 $isLogined = $_REQUEST['App__isLogined'];
@@ -36,23 +36,27 @@ $loginedMember = $_REQUEST['App__loginedMember'];
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKQ4LFR9ZQ"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
             gtag('js', new Date());
 
             gtag('config', 'G-EKQ4LFR9ZQ');
         </script>
-        <?php } ?>
+    <?php } ?>
 
     <?php require_once "meta.php"; ?>
 
 </head>
 <body>
 <div class="site-wrap min-h-screen flex flex-col pt-10">
-    <header class="top-bar fixed top-0 inset-x-0 bg-black text-white h-10">
+    <header class="top-bar fixed top-0 inset-x-0 bg-gray-700 text-white h-10">
         <div class="container mx-auto h-full flex">
             <a href="/" class="top-bar__logo px-5 flex items-center">
-                <span><i class="fas fa-lemon"></i></span>
-                <span class="ml-2 font-bold hidden sm:inline">JEOlI BLOG</span>
+                <span><i class="fas fa-chess-pawn"></i></span>
+                <span class="ml-2 font-bold hidden sm:inline">JEOLI BLOG</span>
             </a>
 
             <div class="flex-grow"></div>

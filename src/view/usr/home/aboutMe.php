@@ -22,4 +22,4 @@ $pageTitle = "소개";
 
   </div>
 
-</section>
+</section> 

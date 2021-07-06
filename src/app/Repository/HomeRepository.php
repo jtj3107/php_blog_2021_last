@@ -18,4 +18,4 @@ class HomeRepository
     private function __construct()
     {
     }
-}
+} 
