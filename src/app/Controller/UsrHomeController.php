@@ -4,8 +4,6 @@ namespace App\Controller;
 
 use App\Container\Container;
 use App\Controller\Controller;
-use App\Service\HomeService;
-
 
 class UsrHomeController extends Controller
 {
