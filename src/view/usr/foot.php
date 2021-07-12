@@ -1,5 +1,5 @@
     </main>
-    <footer class="bottom-bar h-20 bg-gray-700 text-white">
+    <footer class="bottom-bar h-20 text-white">
       <div class="container mx-auto h-full flex items-center justify-center">
         <a href="/" class="top-bar__logo flex items-center">
           <span><i class="fas fa-chess-pawn"></i></span>

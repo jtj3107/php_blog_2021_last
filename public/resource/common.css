@@ -31,4 +31,14 @@ html > body, html > body .tui-editor-contents {
 .top-bar {
   position: fixed;
   z-index:100;
+  background-color: #252525;
 }
+
+.bottom-bar {
+  background-color: #252525;
+}
+
+.menu-box-1 > ul > li:hover > a {
+  color:#252525;
+}
+
