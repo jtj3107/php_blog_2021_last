@@ -1,5 +1,5 @@
 <?php
-$pageTitleIcon = '<i class="fas fa-pen"></i>';
+$pageTitleIcon = '<i class="far fa-id-card"></i>';
 $pageTitle = "소개";
 ?>
 
@@ -7,7 +7,9 @@ $pageTitle = "소개";
 <?php require_once __DIR__ . "/../../part/toastUiSetup.php"; ?>
 <section class="section-about-me">
   <div class="container mx-auto">
+    <div class="con-pad">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, quasi atque tempora beatae dicta odit sequi nostrum at assumenda quibusdam illum neque tenetur fuga facilis dolorum recusandae ad molestias temporibus.
+    </div>
   </div>
 </section>
 

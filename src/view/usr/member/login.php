@@ -6,6 +6,7 @@ $pageTitle = "로그인";
 
 <section class="secion-login">
   <div class="container mx-auto">
+    <div class="con-pad">
     <form action="doLogin" method="POST">
     <div class="form-control">
           <label class="label">
@@ -19,11 +20,14 @@ $pageTitle = "로그인";
           </label> 
         <input class="input input-bordered" required placeholder="로그인비밀번호를 입력해주세요." type="password" name="loginPw"> 
       </div>
-      <div class="btns">
-				<button type="submit" class="btn btn-link">작성</button>
-				<button onclick="history.back();" type="button" class="btn btn-link">작성취소</button>
-			</div>
-    </form>
+      <div>
+          <div class="btns">
+            <button type="submit" class="btn btn-link">로그인</button>
+            <button onclick="history.back();" type="button" class="btn btn-link">로그인취소</button>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
 </section>
 
